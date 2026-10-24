@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "mods": [
+    {
+      "project": "9eGKb6K1",
+      "slug": "simple-voice-chat",
+      "name": "Simple Voice Chat",
+      "description": "A working voice chat in Minecraft!",
+      "iconUrl": "https://cdn.modrinth.com/data/9eGKb6K1/icon.png",
+      "version": "HIQNxagL",
+      "enabled": true,
+      "explicit": true,
+      "requiredBy": [],
+      "metadataChecked": true
+    }
+  ]
+}

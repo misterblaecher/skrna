@@ -1,0 +1,50 @@
+/is
+/is menu
+/kit
+/carnet
+/prestige
+/spaswn
+/spawn
+/kit
+/sell
+/prestige
+/sell all
+/jobs
+/gamble
+/sell all
+/forgeron
+/ec
+/shop
+/quotidien
+/sell all
+/baltop
+/job
+/is
+/is sethome
+/is parametres
+/avantages
+/is bank
+/is parametres
+/jobs
+/quotidien
+/sell all
+/casino
+/spawn
+/fly
+/sell all
+/prestige
+/pompon
+/sell all
+/spawn
+/quotidien
+/ah sell 1000
+/carnet
+/is up
+/sell allll
+/sell all
+/spawn
+/bienvenue
+/is
+/ec
+/sell
+/shop
