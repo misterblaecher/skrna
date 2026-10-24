@@ -1,0 +1,350 @@
+{
+  "schema": 1,
+  "published": 1792612074,
+  "socials": [
+    {
+      "network": "discord",
+      "url": "https://discord.gg/rinaorc",
+      "handle": "discord.gg/rinaorc"
+    },
+    {
+      "network": "tiktok",
+      "url": "https://www.tiktok.com/@rinaorc.studios",
+      "handle": "@rinaorc.studios"
+    },
+    {
+      "network": "instagram",
+      "url": "https://www.instagram.com/rinaorcstudios/",
+      "handle": "@rinaorcstudios"
+    },
+    {
+      "network": "youtube",
+      "url": "https://www.youtube.com/@rinaorcstudios",
+      "handle": "@rinaorcstudios"
+    },
+    {
+      "network": "x",
+      "url": "https://x.com/rinaorc",
+      "handle": "@rinaorc"
+    }
+  ],
+  "hub": {
+    "name": "Hub",
+    "tagline": "Le lobby du réseau : mini-jeux, événements et portails vers tous les modes.",
+    "server": {
+      "host": "play.rinaorc.com",
+      "port": 25565
+    },
+    "accent": "#4be3d6",
+    "art": {
+      "icon": "art/hub-portal.webp?v=15e875945d5b",
+      "backdrop": {
+        "kind": "image",
+        "src": "art/hub-bg.webp?v=f5a114be059f",
+        "focus": "50% 38%"
+      }
+    }
+  },
+  "modes": [
+    {
+      "id": "skyblock",
+      "name": "SkyBlock",
+      "tagline": "Le SkyBlock revisité : partez d'une île perdue dans le ciel et bâtissez un empire avec des mécaniques modernisées.",
+      "en": {
+        "tagline": "SkyBlock revisited: start on an island lost in the sky and build an empire with modernized mechanics."
+      },
+      "minecraft": "26.1.2",
+      "server": {
+        "host": "skyblock-mc.rinaorc.com",
+        "port": 25565
+      },
+      "clientMod": {
+        "url": "https://launcher.rinaorc.com/v1/mods/rina-client-0.9.2+26.1.2.jar",
+        "sha1": "254cdc3209f1c3550c2da673b457b6d183b94b21",
+        "size": 845416
+      },
+      "accounts": [
+        "microsoft",
+        "offline"
+      ],
+      "accent": "#d77be0",
+      "recommendedRamMb": 4096,
+      "available": true,
+      "playersKey": "skyblock",
+      "art": {
+        "icon": "art/skyblock-icon.webp?v=1492e1f5f114",
+        "backdrop": {
+          "kind": "aurora",
+          "base": "#140c22",
+          "blobs": [
+            "#5a3a8f",
+            "#d77be0",
+            "#3f8f5a"
+          ]
+        },
+        "tint": [
+          "#140c22",
+          "#d77be0"
+        ]
+      }
+    },
+    {
+      "id": "french-smp",
+      "name": "French SMP",
+      "tagline": "Plus grande survie Minecraft de France ! Redécouvrez l'essence même de la Survie Minecraft dans toute sa pureté ! Evénements réguliers !",
+      "en": {
+        "tagline": "France's biggest Minecraft survival! Rediscover the very essence of Minecraft Survival in all its purity! Regular events!"
+      },
+      "minecraft": "26.2",
+      "alsoAccepts": [
+        "26.1.2"
+      ],
+      "server": {
+        "host": "play.french-smp.fr",
+        "port": 25565
+      },
+      "clientMod": {
+        "url": "https://launcher.rinaorc.com/v1/mods/rina-client-0.9.2+26.2.jar",
+        "sha1": "75a66dfe199b820c1325bcdb41d77a4c5590bddd",
+        "size": 845544
+      },
+      "accounts": [
+        "microsoft",
+        "offline"
+      ],
+      "accent": "#7cc4ff",
+      "recommendedRamMb": 4096,
+      "available": true,
+      "playersKey": "smp",
+      "art": {
+        "icon": "art/french-smp-icon.webp?v=5a5793f3e8af",
+        "logo": "art/french-smp-logo.png?v=fbaeb9301bda",
+        "logoHeight": 118,
+        "trailer": "4DfoBqJDJ_I",
+        "backdrop": {
+          "kind": "image",
+          "src": "art/french-smp-bg.webp?v=6ca12a75be0e",
+          "focus": "52% 46%"
+        },
+        "tint": [
+          "#0b1436",
+          "#3b7cff"
+        ]
+      }
+    },
+    {
+      "id": "gta",
+      "name": "GTA Warfare",
+      "tagline": "Bienvenue à Montello City. Bâtis ta réputation, équipe-toi d’armes uniques, affronte les autres joueurs et fonde ton propre gang. Avec tes alliés, impose ta loi, développe ton empire et prends le contrôle de la ville.",
+      "en": {
+        "tagline": "Welcome to Montello City. Build your reputation, gear up with unique weapons, take on other players and found your own gang. With your allies, lay down your law, grow your empire and take control of the city."
+      },
+      "minecraft": "26.1.2",
+      "alsoAccepts": [
+        "26.2"
+      ],
+      "server": {
+        "host": "gta-mc.rinaorc.com",
+        "port": 25565
+      },
+      "clientMod": {
+        "url": "https://launcher.rinaorc.com/v1/mods/rina-client-0.9.2+26.1.2.jar",
+        "sha1": "254cdc3209f1c3550c2da673b457b6d183b94b21",
+        "size": 845416
+      },
+      "accounts": [
+        "microsoft",
+        "offline"
+      ],
+      "accent": "#ff4fa3",
+      "recommendedRamMb": 4096,
+      "available": true,
+      "playersKey": "gta",
+      "art": {
+        "icon": "art/gta-icon.webp?v=fcc44338515a",
+        "badge": "NEW!",
+        "trailer": "2ehhYVKSgKo",
+        "backdrop": {
+          "kind": "image",
+          "src": "art/gta-bg.jpg?v=a086ca0ce3ef",
+          "focus": "100% 55%",
+          "zoom": 1.22
+        },
+        "tint": [
+          "#0d0618",
+          "#ff4fa3"
+        ]
+      }
+    },
+    {
+      "id": "gens",
+      "name": "Gens Tycoon",
+      "tagline": "Farmez vos cultures et gérez vos générateurs pour développer votre île, explorer des donjons et tuez les boss.",
+      "en": {
+        "tagline": "Farm your crops and manage your generators to grow your island, explore dungeons and kill the bosses."
+      },
+      "minecraft": "1.21.4",
+      "alsoAccepts": [
+        "26.1.2",
+        "26.2"
+      ],
+      "server": {
+        "host": "gens.rinaorc.com",
+        "port": 25565
+      },
+      "clientMod": {
+        "url": "https://launcher.rinaorc.com/v1/mods/rina-client-0.9.2+1.21.4.jar",
+        "sha1": "1a78b5821c53aaeec531013135c000a5fc1aff44",
+        "size": 847511
+      },
+      "accounts": [
+        "microsoft",
+        "offline"
+      ],
+      "accent": "#3ecf8e",
+      "recommendedRamMb": 4096,
+      "available": true,
+      "playersKey": "gens",
+      "art": {
+        "icon": "art/gens-icon.webp?v=e6b4ceb0106f",
+        "backdrop": {
+          "kind": "image",
+          "src": "art/gens-bg.webp?v=8c212c084c72",
+          "focus": "50% 34%"
+        },
+        "tint": [
+          "#1a0f2b",
+          "#c07cff"
+        ]
+      }
+    },
+    {
+      "id": "zombiez",
+      "name": "ZombieZ",
+      "tagline": "Un objectif, atteindre le Nord et survivre... face à des zombies toujours plus puissants.",
+      "en": {
+        "tagline": "One goal: reach the North and survive... against ever stronger zombies."
+      },
+      "minecraft": "1.21.4",
+      "alsoAccepts": [
+        "26.1.2",
+        "26.2"
+      ],
+      "server": {
+        "host": "zombiez-mc.rinaorc.com",
+        "port": 25565
+      },
+      "clientMod": {
+        "url": "https://launcher.rinaorc.com/v1/mods/rina-client-0.9.2+1.21.4.jar",
+        "sha1": "1a78b5821c53aaeec531013135c000a5fc1aff44",
+        "size": 847511
+      },
+      "accounts": [
+        "microsoft",
+        "offline"
+      ],
+      "accent": "#c9302c",
+      "recommendedRamMb": 4096,
+      "available": true,
+      "playersKey": "zombiez",
+      "art": {
+        "icon": "art/zombiez-icon.webp?v=1d13187dc7e8",
+        "backdrop": {
+          "kind": "image",
+          "src": "art/zombiez-bg.webp?v=d8739ee47cbb",
+          "focus": "55% 45%"
+        },
+        "tint": [
+          "#1a1024",
+          "#e08ad0"
+        ]
+      }
+    },
+    {
+      "id": "megamine",
+      "name": "MegaMine",
+      "tagline": "Chaque partie est une nouvelle aventure : casse tout, terrasse les boss, ouvre les Portails vers des mondes toujours plus fous et bâtis ton build ultime.",
+      "en": {
+        "tagline": "Every run is a new adventure: break everything, take down the bosses, open the Portals to ever wilder worlds and craft your ultimate build."
+      },
+      "minecraft": "26.1.2",
+      "server": {
+        "host": "megamine1.rinaorc.com",
+        "port": 25565
+      },
+      "clientMod": {
+        "url": "https://launcher.rinaorc.com/v1/mods/rina-client-0.9.2+26.1.2.jar",
+        "sha1": "254cdc3209f1c3550c2da673b457b6d183b94b21",
+        "size": 845416
+      },
+      "accounts": [
+        "microsoft",
+        "offline"
+      ],
+      "accent": "#9b6bff",
+      "recommendedRamMb": 4096,
+      "available": true,
+      "playersKey": "prison",
+      "art": {
+        "icon": "art/megamine-icon.webp?v=622f80dec8e4",
+        "logo": "art/megamine-logo.png?v=6e98b99fe818",
+        "logoHeight": 150,
+        "badge": "NEW",
+        "backdrop": {
+          "kind": "image",
+          "src": "art/megamine-bg.webp?v=e146e7089541",
+          "focus": "50% 42%"
+        },
+        "tint": [
+          "#1a0a08",
+          "#ff8a2a"
+        ]
+      }
+    },
+    {
+      "id": "gardenblock",
+      "name": "GardenBlock",
+      "tagline": "Prochainement...",
+      "en": {
+        "tagline": "Coming soon...",
+        "badge": "SOON!"
+      },
+      "minecraft": "26.1.2",
+      "alsoAccepts": [
+        "26.2"
+      ],
+      "server": {
+        "host": "gardenblock.rinaorc.com",
+        "port": 25565
+      },
+      "clientMod": {
+        "url": "https://launcher.rinaorc.com/v1/mods/rina-client-0.9.2+26.1.2.jar",
+        "sha1": "254cdc3209f1c3550c2da673b457b6d183b94b21",
+        "size": 845416
+      },
+      "accounts": [
+        "microsoft",
+        "offline"
+      ],
+      "accent": "#f28ad8",
+      "recommendedRamMb": 4096,
+      "available": false,
+      "playersKey": "gardenblock",
+      "art": {
+        "icon": "art/gardenblock-icon.webp?v=6aec59edfffd",
+        "logo": "art/gardenblock-logo.webp?v=5cd4b9a89114",
+        "logoHeight": 150,
+        "badge": "BIENTÔT !",
+        "backdrop": {
+          "kind": "image",
+          "src": "art/gardenblock-bg.webp?v=d7d5f2cf1161",
+          "focus": "50% 50%"
+        },
+        "tint": [
+          "#1e0f24",
+          "#f28ad8"
+        ]
+      }
+    }
+  ]
+}

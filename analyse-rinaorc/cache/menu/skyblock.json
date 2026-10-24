@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "mode": "skyblock",
+  "playersUrl": "https://api.rinaorc.com/players",
+  "hub": {
+    "name": "Hub",
+    "tagline": "Le lobby du réseau : mini-jeux, événements et portails vers tous les modes.",
+    "host": "play.rinaorc.com",
+    "port": 25565,
+    "accent": "#4be3d6",
+    "icon": "art/7d0288f3f7e748366b781520586d765678f0881e.png",
+    "backdrop": "art/909e4addd3fb1f311f666b1f51f914172d46261a.png",
+    "backdropSoft": "art/fd6beca5289fb4b59f3c10681a59db190c093003.png"
+  },
+  "modes": [
+    {
+      "id": "skyblock",
+      "name": "SkyBlock",
+      "tagline": "Le SkyBlock revisité : partez d'une île perdue dans le ciel et bâtissez un empire avec des mécaniques modernisées.",
+      "minecraft": "26.1.2",
+      "host": "skyblock-mc.rinaorc.com",
+      "port": 25565,
+      "accent": "#d77be0",
+      "available": true,
+      "playersKey": "skyblock",
+      "icon": "art/55817622e6b965b7039b3872c947fce9ba9ff7bf.png",
+      "iconLocked": "art/a57c51c57622f9b3806d2d09e6dd8bc53e1a8cfa.png",
+      "backdrop": "art/4542c9a279c7fd36eaa7c770c505d5b4db14605a.png",
+      "backdropSoft": "art/b6bc9dd035cb63e56ea5d061388eaf20ba623d28.png"
+    },
+    {
+      "id": "french-smp",
+      "name": "French SMP",
+      "tagline": "Plus grande survie Minecraft de France ! Redécouvrez l'essence même de la Survie Minecraft dans toute sa pureté ! Evénements réguliers !",
+      "minecraft": "26.2",
+      "alsoAccepts": [
+        "26.1.2"
+      ],
+      "host": "play.french-smp.fr",
+      "port": 25565,
+      "accent": "#7cc4ff",
+      "available": true,
+      "playersKey": "smp",
+      "icon": "art/b2a36cf1008c532c492417f1cb7205c37fdc1692.png",
+      "iconLocked": "art/9b735df23f418283feb301516f889fb8c41370b6.png",
+      "logo": "art/2cacd3ddfe4c3a6ce451b38aa3ab2e79f7ca595c.png",
+      "backdrop": "art/a5efff1c3b63fbc4577f502108a8af27fe53d5df.png",
+      "backdropSoft": "art/b4330bf4cb7a1cefa7d5323febe9662bea7a46ad.png"
+    },
+    {
+      "id": "gta",
+      "name": "GTA Warfare",
+      "tagline": "Bienvenue à Montello City. Bâtis ta réputation, équipe-toi d’armes uniques, affronte les autres joueurs et fonde ton propre gang. Avec tes alliés, impose ta loi, développe ton empire et prends le contrôle de la ville.",
+      "minecraft": "26.1.2",
+      "alsoAccepts": [
+        "26.2"
+      ],
+      "host": "gta-mc.rinaorc.com",
+      "port": 25565,
+      "accent": "#ff4fa3",
+      "available": true,
+      "playersKey": "gta",
+      "badge": "NEW!",
+      "icon": "art/5a652525828191639d222c2d9f6973906cbce8e5.png",
+      "iconLocked": "art/db016589393dcf39e2e3f545c7aae2b5c294f988.png",
+      "backdrop": "art/364117858ce8e8012e3b76787d582fe3d55938e1.png",
+      "backdropSoft": "art/e297b9a86826d1f687d2289fbc42671cdb944489.png"
+    },
+    {
+      "id": "gens",
+      "name": "Gens Tycoon",
+      "tagline": "Farmez vos cultures et gérez vos générateurs pour développer votre île, explorer des donjons et tuez les boss.",
+      "minecraft": "1.21.4",
+      "alsoAccepts": [
+        "26.1.2",
+        "26.2"
+      ],
+      "host": "gens.rinaorc.com",
+      "port": 25565,
+      "accent": "#3ecf8e",
+      "available": true,
+      "playersKey": "gens",
+      "icon": "art/9a5025f4aa557064be9dd920bb0bc72cec8550b6.png",
+      "iconLocked": "art/b6f68a9514f137b1335480f14f64017d33a7e3dc.png",
+      "backdrop": "art/b25cc917eded3eb8595e71d10a5505ec9ebf8f45.png",
+      "backdropSoft": "art/ec9e9aa83a762a13cc0bfea6362263bdc12e7c62.png"
+    },
+    {
+      "id": "zombiez",
+      "name": "ZombieZ",
+      "tagline": "Un objectif, atteindre le Nord et survivre... face à des zombies toujours plus puissants.",
+      "minecraft": "1.21.4",
+      "alsoAccepts": [
+        "26.1.2",
+        "26.2"
+      ],
+      "host": "zombiez-mc.rinaorc.com",
+      "port": 25565,
+      "accent": "#c9302c",
+      "available": true,
+      "playersKey": "zombiez",
+      "icon": "art/e114f884b6a00093a6690e06b31f9fafb79a881d.png",
+      "iconLocked": "art/dea58bfdd0e905be268f23077e77752077bb7dd5.png",
+      "backdrop": "art/cb20772a7a45c43affc9f39299b1a5185cf225c0.png",
+      "backdropSoft": "art/b793b1f796cbb0fe5476ed22c8d43befa2e0dcc5.png"
+    },
+    {
+      "id": "megamine",
+      "name": "MegaMine",
+      "tagline": "Chaque partie est une nouvelle aventure : casse tout, terrasse les boss, ouvre les Portails vers des mondes toujours plus fous et bâtis ton build ultime.",
+      "minecraft": "26.1.2",
+      "host": "megamine1.rinaorc.com",
+      "port": 25565,
+      "accent": "#9b6bff",
+      "available": true,
+      "playersKey": "prison",
+      "badge": "NEW",
+      "icon": "art/8c034a6b39c64c2bf05f1dd8b259014e547452b6.png",
+      "iconLocked": "art/e0d5c2baa080abd10cbbe74670a82f96671f97ab.png",
+      "logo": "art/0c13d727cfb9cb38837b7861cc7518ed946e300f.png",
+      "backdrop": "art/19cbcb1b4986b8eb1ecc5e30db2cd9ad326ce8ad.png",
+      "backdropSoft": "art/44713521d2627b116f7d1d4c6dc6e82421ab20ad.png"
+    },
+    {
+      "id": "gardenblock",
+      "name": "GardenBlock",
+      "tagline": "Prochainement...",
+      "minecraft": "26.1.2",
+      "alsoAccepts": [
+        "26.2"
+      ],
+      "host": "gardenblock.rinaorc.com",
+      "port": 25565,
+      "accent": "#f28ad8",
+      "available": false,
+      "playersKey": "gardenblock",
+      "badge": "BIENTÔT !",
+      "icon": "art/bca26e399a05e1b76dce3e78d39a55e54f3dafd0.png",
+      "iconLocked": "art/4e675f47085dd695a23eec6f7a55a8fd1d336b0c.png",
+      "logo": "art/43af336dac3832fe170a937c797add92457a009c.png",
+      "backdrop": "art/c1c86ed5655288b56349ddd43996881f69a88694.png",
+      "backdropSoft": "art/de147d5341ecc13a53ad815d58108465a1b17be5.png"
+    }
+  ],
+  "shop": "shop.json"
+}
